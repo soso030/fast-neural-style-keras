@@ -14,10 +14,10 @@
   "content_layer": "block2_conv2",
   "style_layer": ["block1_conv2", "block2_conv2", "block3_conv3", "block4_conv3"],
 
-  "style_image_path": "./examples/style_img/wave.png",
-  "train_image_path": "../data",
-  "test_image_path": "./examples/content_img/content_2.png",
-  "test_res_save_path": "./test_results/wave/",
+  "style_image_path": "/content/fast-neural-style-keras/examples/style_img/wave.png",
+  "train_image_path": "/content/fast-neural-style-keras/data",
+  "test_image_path": "/content/gdrive/My Drive/Colab Notebooks/test_set/data1.jpg",
+  "test_res_save_path": "/content/gdrive/My Drive/Colab Notebooks/result/result_wave.jpg",
 
   "batch_size": 4,
   "steps_per_epoch": 20000,
@@ -25,6 +25,6 @@
   "test_iter": 50,
   "view_iter": 10,
 
-  "weights_save_path": "./trained_nets/",
-  "weights_read_path": "./trained_nets/wave_weights.h5"
+  "weights_save_path": "/content/fast-neural-style-keras/trained_nets/",
+  "weights_read_path": "/content/fast-neural-style-keras/trained_nets/wave_weights.h5"
 }
